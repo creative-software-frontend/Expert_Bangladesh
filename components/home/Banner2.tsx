@@ -1,9 +1,18 @@
-import { Search } from "lucide-react"
+// import { Search } from "lucide-react"
+// import { Input } from "@/components/ui/input"
+// import { Button } from "@/components/ui/button"
+// import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+"use client"
+import { Search, MapPin, X, Target } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-
+// import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { useState } from "react"
+import Image from "next/image"
 export default function Banner2() {
+    const [isOpen, setIsOpen] = useState(false)
+    const [selectedCity, setSelectedCity] = useState("Gulshan")
   return (
     <div className="w-full max-w-7xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-8">Find the right job</h1>
@@ -64,12 +73,21 @@ export default function Banner2() {
       </div>
 
       {/* Search Section */}
+     
       <div className="bg-blue-700 p-6 rounded-lg mb-6">
         <div className="flex flex-col md:flex-row gap-4">
+          <Button
+            variant="outline"
+            className="bg-white w-full md:w-auto flex justify-between items-center gap-2"
+            onClick={() => setIsOpen(true)}
+          >
+            <MapPin className="w-5 h-5 text-[#E91E63]" />
+            <span className="flex-1 text-left">{selectedCity}</span>
+          </Button>
           <div className="flex-1">
             <Input type="text" placeholder="Search by keyword" className="w-full bg-white" />
           </div>
-          <div className="w-full md:w-64">
+          {/* <div className="w-full md:w-64">
             <Select>
               <SelectTrigger className="w-full bg-white">
                 <SelectValue placeholder="Organization Type" />
@@ -80,13 +98,62 @@ export default function Banner2() {
                 <SelectItem value="ngo">NGO</SelectItem>
               </SelectContent>
             </Select>
-          </div>
+          </div> */}
           <Button className="bg-green-500 hover:bg-green-600">
             <Search className="w-4 h-4 mr-2" />
             Search
           </Button>
         </div>
       </div>
+
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogContent className="sm:max-w-[600px]">
+          <DialogHeader>
+            <div className="flex items-center justify-between">
+              <DialogTitle className="text-xl font-semibold">Select Your City</DialogTitle>
+              <Button variant="ghost" size="icon" className="h-6 w-6" onClick={() => setIsOpen(false)}>
+                <X className="h-4 w-4" />
+              </Button>
+            </div>
+          </DialogHeader>
+          <div className="grid grid-cols-2 gap-4 p-4">
+            {[
+              { name: "Dhaka", image: "/placeholder.svg?height=50&width=50" },
+              { name: "Chittagong", image: "/placeholder.svg?height=50&width=50" },
+            ].map((city) => (
+              <button
+                key={city.name}
+                className="p-6 border rounded-lg hover:border-[#E91E63] flex flex-col items-center gap-2"
+                onClick={() => {
+                  setSelectedCity(city.name)
+                  setIsOpen(false)
+                }}
+              >
+                <Image
+                  src={city.image || "/placeholder.svg"}
+                  alt={city.name}
+                  width={50}
+                  height={50}
+                  className="w-12 h-12 object-contain"
+                />
+                <span className="text-[#E91E63] font-medium">{city.name}</span>
+              </button>
+            ))}
+          </div>
+          <Button
+            variant="outline"
+            className="mx-auto w-[300px] flex items-center gap-2 text-[#E91E63] border-[#E91E63]"
+            onClick={() => {
+              // Handle getting current location
+              setIsOpen(false)
+            }}
+          >
+            <Target className="w-5 h-5" />
+            At my current location
+          </Button>
+        </DialogContent>
+      </Dialog>
+  
 
       {/* Location Tags */}
       <div className="flex flex-wrap gap-2 mb-8">
