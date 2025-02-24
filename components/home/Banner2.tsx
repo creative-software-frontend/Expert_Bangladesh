@@ -198,6 +198,16 @@ export default function Banner2() {
               "Supply Chain/ Procurement (121)",
               "Commercial (78)",
               "Research/Consultancy (20)",
+              "Hospitality/ Travel/ Tourism (165)",
+              "NGO/Development (202)",
+              "Supply Chain/ Procurement (121)",
+              "Commercial (78)",
+              "Research/Consultancy (20)",
+              "Hospitality/ Travel/ Tourism (165)",
+              "NGO/Development (202)",
+              "Supply Chain/ Procurement (121)",
+              "Commercial (78)",
+              "Research/Consultancy (20)",
             ].map((category) => (
               <div key={category} className="flex items-center gap-2 text-gray-600 hover:text-blue-600 cursor-pointer">
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
