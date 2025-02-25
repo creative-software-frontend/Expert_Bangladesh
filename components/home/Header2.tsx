@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import logo from "@/assests/banner/logo.jpg"
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_URL || ""}/placeholder.svg?height=40&width=120`}
+            src={logo}
             alt="Sheba"
             width={120}
             height={40}

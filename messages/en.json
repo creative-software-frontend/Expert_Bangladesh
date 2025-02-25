@@ -1,438 +1,449 @@
 {
-    "header": {
-      "business": "Business",
-      "shipping": "Shipping",
-      "truckOwner": "Truck Owner",
-      "blog": "Blog",
-      "login": "Login",
-      "mobileNumber": "Your Mobile Number",
-      "mobileLabel": "Mobile Number",
-      "mobileNumberPlaceholder": "Enter your mobile number",
-      "proceed": "Proceed",
-      "brandName": "Truck Koi"
+  "header": {
+    "business": "Business Services",
+    "shipping": "Home Services",
+    "truckOwner": "Service Providers",
+    "blog": "Sheba Blog",
+    "login": "Login",
+    "mobileNumber": "Your Mobile Number",
+    "mobileLabel": "Mobile Number",
+    "mobileNumberPlaceholder": "Enter your mobile number",
+    "proceed": "Proceed",
+    "brandName": "Sheba.xyz"
+  },
+  "dashboard": {
+    "nav": {
+      "notifications": {
+        "title": "Notifications",
+        "newNotification": "New notification"
+      },
+      "profile": {
+        "editProfile": "Edit Profile",
+        "logout": "Logout"
+      }
     },
-    "dashboard": {
-      "nav": {
-        "notifications": {
-          "title": "Notifications",
-          "newNotification": "New notification"
-        },
-        "profile": {
-          "editProfile": "Edit Profile",
-          "logout": "Logout"
-        }
+    "sideNav": {
+      "toggleMenu": {
+        "open": "Open",
+        "close": "Close"
       },
-      "sideNav": {
-        "toggleMenu": {
-          "open": "Open",
-          "close": "Close"
-        },
-        "title": "Dashboard",
-        "menu": {
-          "createTrip": "Create Trip",
-          "myTrips": "My Trips",
-          "promoCode": "Promo Code",
-          "settings": "Settings",
-          "settingsSubmenu": {
-            "general": "General Settings",
-            "addressBook": "Address Book",
-            "manageDriver": "Manage Driver"
-          }
-        },
-        "mobileApp": {
-          "title": "Get the App",
-          "description": "Install the Truck Koi app for a better experience.",
-          "installButton": "Install on Phone"
-        }
-      },
-      "overview": {
-        "title": "Dashboard",
-        "tabs": {
-          "overview": "Overview",
-          "analytics": "Analytics",
-          "reports": "Reports"
-        },
-        "cards": {
-          "revenue": {
-            "title": "Total Revenue",
-            "change": "+20.1% from last month"
-          },
-          "subscriptions": {
-            "title": "Subscriptions",
-            "change": "+180.1% from last month"
-          },
-          "sales": {
-            "title": "Sales",
-            "change": "+19% from last month"
-          },
-          "activeNow": {
-            "title": "Active Now",
-            "change": "+201 since last hour"
-          }
-        },
-        "charts": {
-          "overview": {
-            "title": "Overview",
-            "groups": {
-              "groupA": "Group A",
-              "groupB": "Group B",
-              "groupC": "Group C",
-              "groupD": "Group D"
-            }
-          },
-          "activities": {
-            "title": "Recent Activities",
-            "description": "You made 265 sales this month."
-          }
-        }
-      },
-      "trips": {
-        "tabs": {
-          "current": "Current Trip",
-          "history": "Trip History"
-        },
-        "emptyState": {
-          "title": "You don't have any trips at the moment",
-          "createButton": "Create New Trip"
-        }
-      },
-      "createTrip": {
-        "title": "Create Your Trip",
-        "steps": {
-          "locations": {
-            "title": "Locations",
-            "step": "1"
-          },
-          "selectTruck": {
-            "title": "Select Truck",
-            "step": "2"
-          },
-          "time": {
-            "title": "Time",
-            "step": "3"
-          }
-        },
-        "locationDetails": {
-          "title": "Location Details",
-          "load": {
-            "label": "Enter a load Location",
-            "color": "red"
-          },
-          "unload": {
-            "label": "Enter an unload Location",
-            "color": "green"
-          }
-        },
-        "locationOptions": {
+      "title": "Service Dashboard",
+      "menu": {
+        "createTrip": "Book a Service",
+        "myTrips": "My Bookings",
+        "promoCode": "Promo Code",
+        "settings": "Settings",
+        "settingsSubmenu": {
+          "general": "General Settings",
           "addressBook": "Address Book",
-          "map": "Map",
-          "division": "Division",
-          "port": "Port"
-        },
-        "actions": {
-          "addStop": "Add Stop",
-          "remove": "Remove location"
-        },
-        "mapView": {
-          "title": "Map View",
-          "searchPlaceholder": "Search for a location",
-          "currentLocation": "Use Current Location",
-          "confirmLocation": "Confirm Location",
-          "dragMarker": "Drag the marker to adjust location",
-          "zoomIn": "Zoom in",
-          "zoomOut": "Zoom out"
+          "manageDriver": "Manage Service Providers"
         }
       },
-      "promoCode": {
-        "title": "Promo Code",
-        "emptyState": {
-          "title": "No Promo Code!",
-          "description": "Add a new promo code to save money"
-        },
-        "actions": {
-          "addPromo": "Add Promo Code"
-        },
-        "modal": {
-          "title": "Add Promo",
-          "placeholder": "Enter promo code",
-          "submit": "Add"
-        }
-      },
-      "settings": {
-        "title": "Settings",
-        "general": {
-          "title": "General Settings",
-          "description": "Manage your account settings and preferences"
-        },
-        "manageDriver": {
-          "title": "Manage Drivers",
-          "description": "Add and manage your trusted drivers",
-          "addButton": "Add New Driver",
-          "emptyState": {
-            "title": "No drivers added yet",
-            "description": "Add your trusted drivers to manage your deliveries efficiently",
-            "addFirstButton": "Add Your First Driver"
-          }
-        }
-      }
-    },
-    "home": {
-      "title": "Truck Koi",
-      "description": "Find your truck",
       "mobileApp": {
-        "title": "Get The Most of Truck Koi\nWith Our Mobile App",
-        "description": "Download the Truck Koi mobile app for one-touch access to your trip experience. You will get access to special features and exclusive offers.",
-        "features": [
-          "Multiple location selection option",
-          "Fixed rate pickup rental within Dhaka city",
-          "Truck hiring for the whole day",
-          "Round-trip option"
-        ],
-        "imageAlt": "Truck Koi Mobile App Interface"
+        "title": "Get the Sheba App",
+        "description": "Install the Sheba app for a better experience.",
+        "installButton": "Install on Phone"
+      }
+    },
+    "overview": {
+      "title": "Service Dashboard",
+      "tabs": {
+        "overview": "Overview",
+        "analytics": "Analytics",
+        "reports": "Reports"
       },
-      "banner": {
-        "title": "Find Trucks",
-        "subtitle": "Easy and Fast",
-        "slides": [
-          {
-            "title": "Secure Delivery",
-            "subtitle": "Deliver your goods safely",
-            "buttonText": "Download App"
-          },
-          {
-            "title": "Fast Transport",
-            "subtitle": "Deliver your goods on time",
-            "buttonText": "Download App"
-          },
-          {
-            "title": "Easy Booking",
-            "subtitle": "Book a truck anytime",
-            "buttonText": "Download App"
-          }
-        ]
-      },
-      "keyClients": {
-        "title": "Our Key Clients",
-        "description": "Truck Koi is the logistics backbone for a lot of Bangladeshi small and large businesses. Some of our clients are enjoying up to 17% reduction in their transportation costs.",
-        "clients": [
-          {
-            "name": "Marico",
-            "alt": "Marico company logo"
-          },
-          {
-            "name": "Panda Mart",
-            "alt": "Panda Mart company logo"
-          },
-          {
-            "name": "Rangs",
-            "alt": "Rangs company logo"
-          },
-          {
-            "name": "Square",
-            "alt": "Square company logo"
-          },
-          {
-            "name": "Minister",
-            "alt": "Minister company logo"
-          }
-        ]
-      },
-      "truckHire": {
-        "title": "Hire Your Truck",
-        "loadLocation": {
-          "label": "Load location",
-          "placeholder": "Enter load location"
+      "cards": {
+        "revenue": {
+          "title": "Total Savings",
+          "change": "+20.1% from last month"
         },
-        "unloadLocation": {
-          "label": "Unload location",
-          "placeholder": "Enter unload location"
+        "subscriptions": {
+          "title": "Active Subscriptions",
+          "change": "+180.1% from last month"
         },
-        "hireButton": "Hire Truck"
-      },
-      "testimonials": {
-        "title": "Our Customers Saying",
-        "items": [
-          {
-            "quote": "Very satisfied with their professionalism and how everything was handled. Highly recommended!",
-            "author": "Rakshanda Naz",
-            "role": ""
-          },
-          {
-            "quote": "Excellent service with a very affordable rate. Loved it.",
-            "author": "Jay Chowdhury",
-            "role": "Assistant Manager - Coca-Cola Beverages Bangladesh"
-          },
-          {
-            "quote": "Truck Koi made home shifting hassle free. Their workers carried every piece of furniture very carefully.",
-            "author": "Samin Farhan",
-            "role": "IT Manager at Thermax Group Bangladesh"
-          },
-          {
-            "quote": "Very professional service. Highly recommended for all kinds of truck rental needs.",
-            "author": "Mohammad Rahman",
-            "role": "Business Owner"
-          },
-          {
-            "quote": "Best truck rental service in Bangladesh. Very reliable and professional.",
-            "author": "Ahmed Khan",
-            "role": "Logistics Manager"
-          }
-        ],
-        "navigation": {
-          "previous": "Previous testimonial",
-          "next": "Next testimonial",
-          "viewSet": "View testimonial set"
+        "sales": {
+          "title": "Services Booked",
+          "change": "+19% from last month"
+        },
+        "activeNow": {
+          "title": "Ongoing Services",
+          "change": "+201 since last hour"
         }
       },
-      "whyTruckKoi": {
-        "title": "Why Truck Koi?",
-        "subtitle": "The easiest way to hire your trucks",
-        "features": [
-          {
-            "title": "Fast Booking",
-            "description": "Book your trip in just a few seconds"
-          },
-          {
-            "title": "Best Rate",
-            "description": "Get the best fare on the market"
-          },
-          {
-            "title": "Secured Delivery",
-            "description": "Ensure the safest delivery of your products"
-          },
-          {
-            "title": "Verified Drivers",
-            "description": "Thousands of verified drivers are available"
+      "charts": {
+        "overview": {
+          "title": "Service Overview",
+          "groups": {
+            "groupA": "Home Services",
+            "groupB": "Business Services",
+            "groupC": "Health & Wellness",
+            "groupD": "Education"
           }
+        },
+        "activities": {
+          "title": "Recent Activities",
+          "description": "You booked 265 services this month."
+        }
+      }
+    },
+    "trips": {
+      "tabs": {
+        "current": "Current Bookings",
+        "history": "Booking History"
+      },
+      "emptyState": {
+        "title": "You don't have any active bookings at the moment",
+        "createButton": "Book a New Service"
+      }
+    },
+    "createTrip": {
+      "title": "Book Your Service",
+      "steps": {
+        "locations": {
+          "title": "Location",
+          "step": "1"
+        },
+        "selectTruck": {
+          "title": "Select Service",
+          "step": "2"
+        },
+        "time": {
+          "title": "Schedule",
+          "step": "3"
+        }
+      },
+      "locationDetails": {
+        "title": "Service Location",
+        "load": {
+          "label": "Enter your service address",
+          "color": "blue"
+        },
+        "unload": {
+          "label": "Enter additional details (optional)",
+          "color": "green"
+        }
+      },
+      "locationOptions": {
+        "addressBook": "Address Book",
+        "map": "Map",
+        "division": "Division",
+        "port": "Area"
+      },
+      "actions": {
+        "addStop": "Add Additional Service",
+        "remove": "Remove service"
+      },
+      "mapView": {
+        "title": "Map View",
+        "searchPlaceholder": "Search for a location",
+        "currentLocation": "Use Current Location",
+        "confirmLocation": "Confirm Location",
+        "dragMarker": "Drag the marker to adjust location",
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out"
+      }
+    },
+    "promoCode": {
+      "title": "Promo Code",
+      "emptyState": {
+        "title": "No Promo Code!",
+        "description": "Add a new promo code to save money on services"
+      },
+      "actions": {
+        "addPromo": "Add Promo Code"
+      },
+      "modal": {
+        "title": "Add Promo",
+        "placeholder": "Enter promo code",
+        "submit": "Add"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "general": {
+        "title": "General Settings",
+        "description": "Manage your account settings and preferences"
+      },
+      "manageDriver": {
+        "title": "Manage Service Providers",
+        "description": "Rate and manage your preferred service providers",
+        "addButton": "Add Preferred Provider",
+        "emptyState": {
+          "title": "No preferred providers added yet",
+          "description": "Add your trusted service providers to get priority bookings",
+          "addFirstButton": "Add Your First Preferred Provider"
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Sheba.xyz",
+    "description": "Your One-Stop Service Solution",
+    "mobileApp": {
+      "title": "Get The Most of Sheba\nWith Our Mobile App",
+      "description": "Download the Sheba mobile app for one-touch access to all our services. You will get access to special features and exclusive offers.",
+      "features": [
+        "Wide range of home and business services",
+        "Fixed rate services within your city",
+        "Book services for the whole day",
+        "Subscription options for regular services"
+      ],
+      "imageAlt": "Sheba Mobile App Interface"
+    },
+    "banner": {
+      "title": "Find Services",
+      "subtitle": "Easy and Fast",
+      "slides": [
+        {
+          "title": "Professional Services",
+          "subtitle": "Get expert help for all your needs",
+          "buttonText": "Download App"
+        },
+        {
+          "title": "Quick Booking",
+          "subtitle": "Book services in minutes",
+          "buttonText": "Download App"
+        },
+        {
+          "title": "Trusted Providers",
+          "subtitle": "Verified and skilled professionals",
+          "buttonText": "Download App"
+        }
+      ]
+    },
+    "keyClients": {
+      "title": "Our Key Clients",
+      "description": "Sheba is the service backbone for many Bangladeshi households and businesses. Some of our clients are enjoying up to 30% reduction in their service costs.",
+      "clients": [
+        {
+          "name": "Unilever",
+          "alt": "Unilever company logo"
+        },
+        {
+          "name": "Grameenphone",
+          "alt": "Grameenphone company logo"
+        },
+        {
+          "name": "BRAC",
+          "alt": "BRAC organization logo"
+        },
+        {
+          "name": "Robi",
+          "alt": "Robi company logo"
+        },
+        {
+          "name": "Daraz",
+          "alt": "Daraz company logo"
+        }
+      ]
+    },
+    "truckHire": {
+      "title": "Book Your Service",
+      "loadLocation": {
+        "label": "Service location",
+        "placeholder": "Enter service location"
+      },
+      "unloadLocation": {
+        "label": "Service type",
+        "placeholder": "Select service type"
+      },
+      "hireButton": "Book Service"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "Very satisfied with their professionalism and how everything was handled. Highly recommended!",
+          "author": "Rakshanda Naz",
+          "role": "Homeowner"
+        },
+        {
+          "quote": "Excellent service with very affordable rates. Loved it.",
+          "author": "Jay Chowdhury",
+          "role": "Business Owner"
+        },
+        {
+          "quote": "Sheba made home maintenance hassle-free. Their workers are skilled and courteous.",
+          "author": "Samin Farhan",
+          "role": "IT Manager"
+        },
+        {
+          "quote": "Very professional service. Highly recommended for all kinds of home and office needs.",
+          "author": "Mohammad Rahman",
+          "role": "Corporate Client"
+        },
+        {
+          "quote": "Best service platform in Bangladesh. Very reliable and professional.",
+          "author": "Ahmed Khan",
+          "role": "Regular Customer"
+        }
+      ],
+      "navigation": {
+        "previous": "Previous testimonial",
+        "next": "Next testimonial",
+        "viewSet": "View testimonial set"
+      }
+    },
+    "whyTruckKoi": {
+      "title": "Why Sheba?",
+      "subtitle": "The easiest way to get professional services",
+      "features": [
+        {
+          "title": "Quick Booking",
+          "description": "Book your service in just a few taps"
+        },
+        {
+          "title": "Best Rates",
+          "description": "Get the most competitive prices in the market"
+        },
+        {
+          "title": "Quality Service",
+          "description": "Ensure top-notch service from skilled professionals"
+        },
+        {
+          "title": "Verified Providers",
+          "description": "Thousands of verified service providers available"
+        }
+      ]
+    },
+    "whyTruckLagbe": {
+      "title": "Why Sheba?"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "A simple and quick service booking process",
+      "playStoreAlt": "Get it on Google Play",
+      "appInterfaceAlt": "Sheba App Interface",
+      "steps": [
+        {
+          "title": "Download the app and sign up",
+          "content": "Install the Sheba app from the Google Play store. Then sign up in the app to start the seamless service booking process.",
+          "hasPlayStore": true
+        },
+        {
+          "title": "Choose your location",
+          "content": "Select your service location to find available providers in your area.",
+          "hasPlayStore": false
+        },
+        {
+          "title": "Choose the appropriate type of service",
+          "content": "Select from a wide range of services that best suits your needs.",
+          "hasPlayStore": false
+        },
+        {
+          "title": "Choose date, time and other specifications",
+          "content": "Set your preferred schedule and any specific requirements for your service.",
+          "hasPlayStore": false
+        },
+        {
+          "title": "Confirm your booking",
+          "content": "Review your booking details and confirm to find the right service provider.",
+          "hasPlayStore": false
+        }
+      ]
+    }
+  },
+  "footer": {
+    "categories": {
+      "title": "Service Categories",
+      "pickup": {
+        "title": "Home Services",
+        "items": [
+          "Cleaning",
+          "Appliance Repair",
+          "Plumbing",
+          "Electrical",
+          "Painting"
         ]
       },
-      "whyTruckLagbe": {
-        "title": "Why Truck Lagbe?"
+      "medium": {
+        "title": "Business Services",
+        "items": [
+          "Office Cleaning",
+          "IT Support",
+          "Accounting",
+          "Legal Services"
+        ]
       },
-      "howItWorks": {
-        "title": "How it works",
-        "subtitle": "A simple and quick truck hiring process",
-        "playStoreAlt": "Get it on Google Play",
-        "appInterfaceAlt": "Truck Koi App Interface",
-        "steps": [
-          {
-            "title": "Download the app and sign up",
-            "content": "Install the Truck Koi app from the Google Play store. Then sign up in the app to start the seamless truck hiring process.",
-            "hasPlayStore": true
-          },
-          {
-            "title": "Choose your location",
-            "content": "Select your pickup and delivery locations to find available trucks in your area.",
-            "hasPlayStore": false
-          },
-          {
-            "title": "Choose the appropriate types of trucks",
-            "content": "Select from a wide range of trucks that best suits your transportation needs.",
-            "hasPlayStore": false
-          },
-          {
-            "title": "Choose date, time and other specifications",
-            "content": "Set your preferred schedule and any specific requirements for your delivery.",
-            "hasPlayStore": false
-          },
-          {
-            "title": "Publish your trip",
-            "content": "Confirm your booking details and publish your trip to find the right truck.",
-            "hasPlayStore": false
-          }
+      "large": {
+        "title": "Health & Wellness",
+        "items": [
+          "Home Nursing",
+          "Physiotherapy",
+          "Mental Health Counseling",
+          "Fitness Training"
+        ]
+      },
+      "trailer": {
+        "title": "Education",
+        "items": [
+          "Online Tutoring",
+          "Language Courses",
+          "Skill Development",
+          "Test Preparation"
+        ]
+      },
+      "attachment": {
+        "title": "Beauty & Spa",
+        "items": [
+          "Haircut & Styling",
+          "Massage",
+          "Manicure & Pedicure",
+          "Makeup Services"
         ]
       }
     },
-    "footer": {
-      "categories": {
-        "title": "Truck Categories and Rates",
-        "pickup": {
-          "title": "Pickup Trucks",
-          "items": [
-            "7 feet 1 ton",
-            "9 feet 1.5 ton",
-            "12 feet 2 ton"
-          ]
-        },
-        "medium": {
-          "title": "Medium Size Trucks",
-          "items": [
-            "14 feet 3.5 ton",
-            "16 feet 7.5 ton"
-          ]
-        },
-        "large": {
-          "title": "Large Size Trucks",
-          "items": [
-            "18 feet 15 ton",
-            "20 feet 15 ton",
-            "20 feet 20 ton",
-            "20 feet 25 ton"
-          ]
-        },
-        "trailer": {
-          "title": "Trailer Trucks",
-          "items": [
-            "Flat-bed Trailer",
-            "Low-bed Trailer"
-          ]
-        },
-        "attachment": {
-          "title": "Truck Attachments",
-          "items": [
-            "Tata, Ashok Leyland, Isuzu, Mahindra, VAX, JMC, Eicher, Mitsubishi, Deckwerd, PON-F"
-          ]
+    "links": {
+      "services": {
+        "title": "Services",
+        "items": {
+          "shipper": "For Customers",
+          "business": "For Businesses",
+          "shipping": "Home Services",
+          "truckOwner": "For Service Providers",
+          "faq": "FAQ"
         }
       },
-      "links": {
-        "services": {
-          "title": "Services",
-          "items": {
-            "shipper": "Shipper",
-            "business": "Business",
-            "shipping": "Shipping",
-            "truckOwner": "Truck Owner",
-            "faq": "FAQ"
-          }
-        },
-        "company": {
-          "title": "Company",
-          "items": {
-            "blog": "Blog",
-            "career": "Career",
-            "contact": "Contact Us",
-            "categories": "Truck Categories"
-          }
-        },
-        "rules": {
-          "title": "Rules",
-          "items": {
-            "termsShipper": "Terms - Shipper",
-            "termsOwner": "Terms - Truck Owner",
-            "privacy": "Privacy Policy"
-          }
-        },
-        "parts": {
-          "title": "Parts",
-          "items": {
-            "truckParts": "Truck Parts"
-          }
+      "company": {
+        "title": "Company",
+        "items": {
+          "blog": "Blog",
+          "career": "Career",
+          "contact": "Contact Us",
+          "categories": "Service Categories"
         }
       },
-      "contact": {
-        "title": "Contact",
-        "email": "customercare@truckkoi.com",
-        "phone": "+880 9638 000 000"
+      "rules": {
+        "title": "Rules",
+        "items": {
+          "termsShipper": "Terms - Customers",
+          "termsOwner": "Terms - Service Providers",
+          "privacy": "Privacy Policy"
+        }
       },
-      "download": {
-        "title": "Download Truck Koi App",
-        "shipper": "Shipper",
-        "truckOwner": "Truck Owner",
-        "playStoreAlt": "Get it on Google Play"
-      },
-      "copyright": "© 2025 Truck Koi Limited. All rights reserved",
-      "brandName": "Truck Koi"
-    }
+      "parts": {
+        "title": "Partners",
+        "items": {
+          "truckParts": "Become a Partner"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "support@sheba.xyz",
+      "phone": "+880 9638 111 111"
+    },
+    "download": {
+      "title": "Download Sheba App",
+      "shipper": "For Customers",
+      "truckOwner": "For Service Providers",
+      "playStoreAlt": "Get it on Google Play"
+    },
+    "copyright": "© 2025 Sheba Digital Limited. All rights reserved",
+    "brandName": "Sheba.xyz"
   }
+}
+
+
   
   
