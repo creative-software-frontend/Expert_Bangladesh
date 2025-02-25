@@ -23,13 +23,14 @@ export default function Header() {
             href="/sheba-pay"
             className="px-6 py-2 rounded-full border border-[#E91E63] text-[#E91E63] hover:bg-[#E91E63]/5 transition-colors"
           >
-            Sheba Pay
+          Login
           </Link>
           <Link href="/services" className="text-gray-700 hover:text-[#E91E63] transition-colors">
             All Services
           </Link>
           <Link href="/login" className="text-gray-700 hover:text-[#E91E63] transition-colors">
-            Login
+           
+            Sheba Pay
           </Link>
         </nav>
       </div>

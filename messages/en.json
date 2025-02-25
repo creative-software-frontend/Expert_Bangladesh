@@ -41,7 +41,7 @@
       },
       "mobileApp": {
         "title": "Get the Sheba App",
-        "description": "Install the Sheba app for a better experience.",
+        "description": "Install the Sheba koi app for a better experience.",
         "installButton": "Install on Phone"
       }
     },
@@ -213,7 +213,7 @@
     },
     "keyClients": {
       "title": "Our Key Clients",
-      "description": "Sheba is the service backbone for many Bangladeshi households and businesses. Some of our clients are enjoying up to 30% reduction in their service costs.",
+      "description": "Sheba koi is the service backbone for many Bangladeshi households and businesses. Some of our clients are enjoying up to 30% reduction in their service costs.",
       "clients": [
         {
           "name": "Unilever",
@@ -285,7 +285,7 @@
       }
     },
     "whyTruckKoi": {
-      "title": "Why Sheba?",
+      "title": "Why Sheba koi?",
       "subtitle": "The easiest way to get professional services",
       "features": [
         {
@@ -430,7 +430,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "support@sheba.xyz",
+      "email": "support@sheba.com",
       "phone": "+880 9638 111 111"
     },
     "download": {
@@ -439,7 +439,7 @@
       "truckOwner": "For Service Providers",
       "playStoreAlt": "Get it on Google Play"
     },
-    "copyright": "© 2025 Sheba Digital Limited. All rights reserved",
+    "copyright": "© 2025 Sheba koi. All rights reserved",
     "brandName": "Sheba.xyz"
   }
 }
