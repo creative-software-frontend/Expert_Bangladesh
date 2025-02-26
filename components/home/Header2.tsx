@@ -20,7 +20,7 @@ export default function Header() {
         {/* Navigation */}
         <nav className="flex items-center gap-8">
           <Link
-            href="/sheba-pay"
+            href=""
             className="px-6 py-2 rounded-full border border-[#E91E63] text-[#E91E63] hover:bg-[#E91E63]/5 transition-colors"
           >
           Login
@@ -28,10 +28,10 @@ export default function Header() {
           <Link href="/services" className="text-gray-700 hover:text-[#E91E63] transition-colors">
             All Services
           </Link>
-          <Link href="/login" className="text-gray-700 hover:text-[#E91E63] transition-colors">
+          {/* <Link href="/login" className="text-gray-700 hover:text-[#E91E63] transition-colors">
            
             Sheba Pay
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>

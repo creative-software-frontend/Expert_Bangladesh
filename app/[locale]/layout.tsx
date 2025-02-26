@@ -18,8 +18,8 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "ট্রাক কই",
-  description: "ট্রাক কই",
+  title: "সেবা কই",
+  description: "সেবা কই",
 }
 
 async function getMessages(locale: string) {

@@ -15,7 +15,7 @@ export default function Banner2() {
     const [selectedCity, setSelectedCity] = useState("Gulshan")
   return (
     <div className="w-full max-w-7xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-8">Find the right job</h1>
+      <h1 className="text-3xl font-bold mb-8">Find the right service</h1>
 
       {/* Stats Section */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -26,7 +26,7 @@ export default function Banner2() {
             </svg>
           </div>
           <div>
-            <div className="text-sm text-blue-600 font-medium">LIVE JOBS</div>
+            <div className="text-sm text-blue-600 font-medium">LIVE SERVICE</div>
             <div className="text-xl font-bold text-blue-800">4,477</div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Banner2() {
             </svg>
           </div>
           <div>
-            <div className="text-sm text-blue-600 font-medium">VACANCIES</div>
+            <div className="text-sm text-blue-600 font-medium">ORDER </div>
             <div className="text-xl font-bold text-blue-800">17,640+</div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Banner2() {
             </svg>
           </div>
           <div>
-            <div className="text-sm text-blue-600 font-medium">COMPANIES</div>
+            <div className="text-sm text-blue-600 font-medium">COMPLETE SERVICE</div>
             <div className="text-xl font-bold text-blue-800">2,608</div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Banner2() {
             </svg>
           </div>
           <div>
-            <div className="text-sm text-blue-600 font-medium">NEW JOBS</div>
+            <div className="text-sm text-blue-600 font-medium"> SERVICE PROVIDER</div>
             <div className="text-xl font-bold text-blue-800">361</div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Banner2() {
       <div className="grid md:grid-cols-[1fr_300px] gap-6">
         <div className="space-y-6">
           <div className="flex items-center gap-4 mb-4">
-            <h2 className="text-xl font-semibold">Browse Category</h2>
+            <h2 className="text-xl font-semibold">Service Category</h2>
             <div className="flex gap-2">
               <Button variant="secondary" size="sm">
                 Functional

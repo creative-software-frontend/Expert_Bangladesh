@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Facebook, Youtube, Linkedin, Instagram, Twitter } from "lucide-react"
 import paymentmode from '@/assests/footer/google-play-badge.png'
-import logo from '@/assests/icon.png'
+import logo from '@/assests/banner/logo.jpg'
 import { useTranslations } from "next-intl"
 
 export default function Footer() {
@@ -161,11 +161,11 @@ export default function Footer() {
                 <Image
                   src={logo}
                   alt={t("brandName")}
-                  width={50}
+                  width={140}
                   height={50}
                   className="rounded-full"
                 />
-                <span className="text-sm font-bold">{t("brandName")}</span>
+                {/* <span className="text-sm font-bold">{t("brandName")}</span> */}
               </Link>
               <p className="text-sm text-gray-600">{t("copyright")}</p>
             </div>
