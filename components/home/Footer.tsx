@@ -156,7 +156,7 @@ export default function Footer() {
         <div className="border-t border-gray-200">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             {/* Logo and Copyright */}
-            <div className="flex flex-col items-center lg:items-start gap-4 mb-4">
+            <div className="flex flex-col items-center lg:items-start gap-4 -mb-6">
               <Link href="/" className="flex items-center gap-2">
                 <Image
                   src={logo}
@@ -167,7 +167,7 @@ export default function Footer() {
                 />
                 {/* <span className="text-sm font-bold">{t("brandName")}</span> */}
               </Link>
-              <p className="text-sm text-gray-600">{t("copyright")}</p>
+              <p className="text-sm text-gray-600 ">{t("copyright")}</p>
             </div>
 
             {/* Download Apps */}
